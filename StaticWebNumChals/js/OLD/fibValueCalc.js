@@ -6,8 +6,8 @@ var values = [1,1];
 
 //console.log("n = " + n);
 
-function fibCalc(m) { //Just practicing funcitons :)
-	if (m === (0 || 1)) { //Thse are hardcoded into the array
+function fibCalc(m) { //Just practicing functions :)
+	if (m === (0 || 1)) { //These are hardcoded into the array
 		return; 
 	} else {
 	for (var i = 0; i <= m; i++)
@@ -18,7 +18,7 @@ function fibCalc(m) { //Just practicing funcitons :)
 	return;
 }
 
-fibCalc(n); //Call the funciton 
+fibCalc(n); //Call the function 
 
 if (n === 0){ 
 	document.write("<em>n</em> of 0 is 0 <br>");

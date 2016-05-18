@@ -9,7 +9,7 @@ console.log("Challenge 5 initiated!");
 
 while (negFlag === false) //error checking
 {
-	n = parseInt(prompt("What number do you wih to target as a cap for the Fibonacci Sequence", 0));
+	n = parseInt(prompt("What number do you with to target as a cap for the Fibonacci Sequence", 0));
 	if ((n >= 0)) { 
 		negFlag = true;
 		break;

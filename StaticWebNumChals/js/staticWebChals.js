@@ -13,7 +13,7 @@ function four() {
 		{
 			if ((i % j) !== 0) { //check for non-zero mod first as that will be more common (I assume)
 			 	tarFlag = false;
-			 	i += 10; //add 10 to i becasue and answer MUST be divisible by 10 and ten is the biggest divisor
+			 	i += 10; //add 10 to i because and answer MUST be divisible by 10 and ten is the biggest divisor
 			 	break;
 			} else { //if %=0 then swap flag and set target, but keep testing
 				tarFlag = true; 
@@ -42,7 +42,7 @@ function five() {
 
 	while (posFlag === false) //error checking
 	{
-		n = parseInt(prompt("What number do you wih to target as a cap for the Fibonacci Sequence", 0));
+		n = parseInt(prompt("What number do you with to target as a cap for the Fibonacci Sequence", 0));
 		if ((n >= 0)) { 
 			posFlag = true; 
 			break;
@@ -52,7 +52,7 @@ function five() {
 
 	console.log("Error Check for 5 complete!<br>" + "The value for n is " + n);
 
-	for (counter; counter <= n; counter++) //calulate the number
+	for (counter; counter <= n; counter++) //calculate the number
 	{
 		if (values[counter] < n){
 			values.push(values[counter] + values [counter + 1]); //push n+(n-1) to the end of the array. While the value of counter is <n
